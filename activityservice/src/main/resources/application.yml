@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: activityservice
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fitfreak_activity_data
+    username: postgres
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
